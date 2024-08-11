@@ -1,6 +1,3 @@
-Here is the raw text version of the markdown (md) file:
-
-```
 # Web Scanner and PDF Converter
 
 This Java program is designed to crawl web pages of a specific novel, store the content in an HTML file, and convert the content into a PDF file. The program uses several libraries, including `Jsoup` for web scraping, `JUnit` for testing, and `iText` (with `com.lowagie` package) for PDF generation.
@@ -108,4 +105,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Jsoup**: For providing a powerful web scraping library.
 - **iText (com.lowagie)**: For the PDF generation capabilities.
 - **JUnit 5**: For the unit testing framework.
-```****
+
