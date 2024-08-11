@@ -17,9 +17,6 @@ public class MainPage {
     @FindBy(id = "chr-content")
     public WebElement mainContent;
 
-    @FindBy(id = "chr-content")
-    public WebElement mainContent;
-
     public MainPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
