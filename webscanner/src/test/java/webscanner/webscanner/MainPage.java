@@ -14,7 +14,10 @@ public class MainPage {
     @FindBy(css = "[data-test='not-found-element']")
     public WebElement notFoundElement;
 
-    @FindBy(id = "chr-content")
+    @FindBy(css = "a.nextchap ")
+    public WebElement nextChapter;
+
+    @FindBy(css = "div#content")
     public WebElement mainContent;
 
     public MainPage(WebDriver driver) {
